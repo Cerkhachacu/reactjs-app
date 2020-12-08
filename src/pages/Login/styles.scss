@@ -1,0 +1,139 @@
+@import "../../sass/color";
+
+
+.page-login {
+  .container {
+    // background-color: $blue;
+    font-family: "Muli";
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100vh;
+    z-index: -2;
+    background-image: linear-gradient(to left, $white 0%, $gradient 70%);
+  }
+
+  .bg-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 88px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .logo-image {
+    position: absolute;
+    top: 46px;
+    left: 64px;
+    width: 78px;
+    height: 34px;
+  }
+
+  .form-container {
+    margin-top: 111px;
+    margin-right: 114px;
+  }
+
+  .login-title-container {
+    margin-bottom: 48px;
+  }
+
+  .login-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: $bluenifty;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-style {
+    border: 0;
+    width: 436px;
+    height: 58px;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    padding-left: 22px;
+    border-radius: 7px;
+    box-shadow: 0 3px 6px $black;
+    box-sizing: border-box;
+    // border: 0;
+  }
+
+  .password-strength-bar {
+    width: 436px;
+    height: 5px;
+    background-color: $green;
+    margin-top: -12px;
+    margin-bottom: 7px;
+    border-radius: 15px;
+  }
+
+  .strong-password {
+    font-size: 14px;
+    color: $grey;
+    margin-bottom: 10px;
+  }
+
+  .policy-check-container {
+    margin-top: -7px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    color: $grey;
+    display: flex;
+    justify-content: space-between;
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .checkbox {
+      cursor: pointer;
+      margin-right: 10px;
+      width: 20px;
+      height: 20px;
+    }
+
+    a {
+      margin-right: 19px;
+      color: $grey;
+      cursor: pointer;
+    }
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button-signup {
+    border: 0;
+    width: 160px;
+    height: 58px;
+    border-radius: 7px;
+    font-size: 12px;
+    color: $grey;
+    background-color: $white;
+    box-shadow: 0 3px 6px $shadow;
+    cursor: pointer;
+  }
+
+  .button-login {
+    background-color: $bluenifty;
+    border-width: 0;
+    border-radius: 7px;
+    margin-right: 19px;
+    width: 160px;
+    height: 58px;
+    color: $white;
+    cursor: pointer;
+  }
+}
+
